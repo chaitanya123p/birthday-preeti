@@ -1,11 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Happy Birthday Preeti 🎂</title>
+    <meta charset="UTF-8">
+    <title>Happy Birthday Preeti 🎂</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="margin:0; padding:40px; font-family:Arial; background:#ffe6ee; text-align:center;">
-  <h1>🎉 Happy Birthday Preeti 🎂</h1>
-  <p>If you can read this, your site is LIVE 💖</p>
+<body>
+
+<!-- Welcome Popup -->
+<div id="welcomePopup" class="popup">
+    <div class="popup-box">
+        <h2>🎉 Surprise Preeti!</h2>
+        <p>This website is made only for you 💖</p>
+        <button onclick="closeWelcome()">Enter 🎀</button>
+    </div>
+</div>
+
+<!-- Floating Hearts -->
+<div class="hearts"></div>
+
+<h1 class="title">Happy Birthday Preeti 🎂</h1>
+<p class="subtitle">Someone incredibly special turns 22 today 💕</p>
+
+<div class="buttons">
+    <button onclick="openWish()">💌 Special Wish</button>
+    <button onclick="openGift()">🎁 Open Gift</button>
+    <button onclick="openPraise()">🌸 Why You’re Special</button>
+</div>
+
+<!-- Wish Popup -->
+<div id="wishPopup" class="popup">
+    <div class="popup-box long">
+        <h3>💖 A Special Birthday Message</h3>
+        <p class="wish-text">
+Happy Birthday Preeti 🎂💕<br><br>
+
+For you it's your 22nd Birthday but mara satin it's your First Birthday...<br><br>
+
+I don't know kyam react karnu ki but i am feeling so happy for you. Birthday taaru se but khush me hotlo 😅.<br><br>
+
+Days ketta jaldi khatam hijaat na.. dekh na parmat 1 january hotu 13 january khamma aai ki thouk bi hi nai.. tyamat time khamma jaldi jaldi hot ki apne thouk bi hotu nahi.<br><br>
+
+So from now life ne ek alag way me enjoy kr.. and im sure tu karat bi. And I wish ki tara sabbi wishes sabbi goals that you want to achieve poora honu. Tu tumaru family inati jasti khamma bi happy rhenu.<br><br>
+
+Btw jyona gharme etti assal beti se te happy riye nai te kay reth 😅.<br><br>
+
+Preeti i don't know mane ettu sabbi tara satin ka karnu kavatlai like me parmat te got hi apnu, but one thing mane ye sabbi karnu tara satin assal kavatlai.<br><br>
+
+Once again....<br>
+<strong>Happiest Birthday to the special one 🎂💕</strong>
+        </p>
+        <button onclick="closeWish()">Close 💕</button>
+    </div>
+</div>
+
+<!-- Gift Popup -->
+<div id="giftPopup" class="popup">
+    <div class="popup-box">
+        <h2>🎁 Surprise Gift</h2>
+        <p>May God give you all the happiness that you want 🤗</p>
+        <button onclick="closeGift()">Thank You 💖</button>
+    </div>
+</div>
+
+<!-- Praise Popup -->
+<div id="praisePopup" class="popup">
+    <div class="popup-box">
+        <h3>✨ About You</h3>
+        <p>
+            So beautiful 🌸<br>
+            So glamorous ✨<br>
+            So hardworking 💪<br>
+            So kind hearted 💖
+        </p>
+        <button onclick="closePraise()">Aww 🥰</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+<!-- Extra Creative Section -->
+<section class="extra-section">
+    <h2>🌸 A Few Words From Heart</h2>
+    <p>
+        Some people make days brighter without even trying.  
+        You are one of them, Preeti 💖
+    </p>
+
+    <div class="cards">
+        <div class="card">💖<br>Beautiful</div>
+        <div class="card">✨<br>Glamorous</div>
+        <div class="card">💪<br>Hardworking</div>
+        <div class="card">🌸<br>Kind Hearted</div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    Made with 💕 only for Preeti <br>
+    May your smile always stay this beautiful 🌈
+</footer>
+
 </body>
 </html>
