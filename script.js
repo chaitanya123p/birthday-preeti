@@ -1,24 +1,31 @@
+window.onload = function () {
+    document.getElementById("welcomePopup").style.display = "block";
+};
+
 function closeWelcome() {
-  document.getElementById("welcome").classList.remove("show");
+    document.getElementById("welcomePopup").style.display = "none";
 }
 
 function openWish() {
-  document.getElementById("wish").classList.add("show");
+    document.getElementById("wishPopup").style.display = "block";
 }
+
 function closeWish() {
-  document.getElementById("wish").classList.remove("show");
+    document.getElementById("wishPopup").style.display = "none";
 }
 
 function openGift() {
-  document.getElementById("gift").classList.add("show");
+    document.getElementById("giftPopup").style.display = "block";
 }
+
 function closeGift() {
-  document.getElementById("gift").classList.remove("show");
+    document.getElementById("giftPopup").style.display = "none";
 }
 
 function openPraise() {
-  document.getElementById("praise").classList.add("show");
+    document.getElementById("praisePopup").style.display = "block";
 }
+
 function closePraise() {
-  document.getElementById("praise").classList.remove("show");
+    document.getElementById("praisePopup").style.display = "none";
 }
